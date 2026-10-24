@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio by dylan.yudoyono</title>
+    <script
+      src="https://kit.fontawesome.com/650e2e69ee.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="scroll-up">
+      <a href="#">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <nav>
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-box">
+            <div class="logo">
+              <div class="logo-title">Portfolio</div>
+            </div>
+            <ul class="menu">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About Me</a>
+              </li>
+              <li>
+                <a href="#service">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="hero" id="home">
+      <div class="container">
+        <div class="hero-box">
+          <div
+            class="box-1"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            <h1>
+              Halo! Nama ku
+              <br /><span>Dylan Yudoyono</span>
+            </h1>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+              Ini Project Tugas Mapel Pilihan Layanan Ifrastruktur Jaringan
+              Digital, membangun web server mandiri.
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            <img
+              src="../portfoliodylan.github.io/images/personal_photo.jpeg"
+              alt="hero images"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="about">
+      <div class="container">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+          Tentang <span>Ku</span>
+        </h1>
+        <div class="about-box">
+          <div
+            class="box-2"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          >
+            <p>
+              Saya seorang siswa Kelas XI Dari sekolah SMKn 7 Samarinda, Jurusan
+              PPLG. Saya suka mempelajari teknologi dan mengikuti perkembangan
+              digital yang masih relevan sampai sekarang.
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-once="true"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div id="service" class="services-section">
+      <div class="container">
+        <h2
+          class="services-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          SERVICES
+        </h2>
+        <p
+          class="services-subtitle"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          No Services
+        </p>
+      </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <div
+          class="portfolio-title"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          <h2>PORTFOLIO</h2>
+          <p>Ini beberapa Project yang pernah saya lakukan</p>
+        </div>
+        <div
+          class="portfolio-box"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          <div class="box">
+            <img
+              src="../portfoliodylan.github.io/images/portfolio_image/portfolio.png"
+              alt="project images"
+            />
+            <div class="portfolio-desc">
+              <h3>
+                Membangun Server Website Mandiri <br />Menggunakan VirtualBox,
+                Ubuntu Server, BarePod, dan Cloudflare Tunnel
+              </h3>
+              <p>
+                Proyek ini bertujuan untuk membangun dan mempublikasikan sebuah
+                website portfolio secara mandiri (self-hosted) dari komputer
+                lokal ke internet publik tanpa memerlukan VPS berbayar atau
+                pengaturan router yang rumit.
+                <br />
+                <br />
+                Arsitektur & Komponen yang Digunakan:
+
+                <br /><br />
+                VirtualBox (Hypervisor Tipe 2): <br />Digunakan untuk
+                menjalankan sistem operasi server secara virtual di atas laptop
+                dengan konfigurasi jaringan ganda (NAT untuk akses internet VM
+                dan Host-Only untuk manajemen lokal).
+
+                <br /><br />Ubuntu Server 22.04 LTS: <br />Berfungsi sebagai
+                sistem operasi server utama yang handal dan ringan.
+
+                <br /><br />BarePod Panel: <br />Panel manajemen hosting
+                open-source berbasis web untuk mengelola file website, layanan
+                web server, dan kontainer dengan mudah.
+
+                <br /><br />Sumopod & Cloudflare: <br />Pengelolaan domain
+                pribadi (.my.id) yang diintegrasikan dengan Cloudflare DNS.
+
+                <br /><br />Cloudflare Tunnel: <br />Teknologi secure tunneling
+                untuk menghubungkan server lokal di dalam jaringan privat
+                langsung ke internet publik secara aman dengan enkripsi SSL
+                otomatis (HTTPS).
+
+                <br /><br />Hasil Akhir: <br />Website portfolio berhasil
+                di-deploy secara lokal di dalam server virtual dan dapat diakses
+                secara global oleh publik melalui internet menggunakan domain
+                sendiri dengan aman dan lancar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="contact">
+      <p>&copy; Copyright 2026 by <span>dylan.yudoyono</span></p>
+      <div class="social">
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
